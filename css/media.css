@@ -1,0 +1,116 @@
+
+@media(min-width:0px) and (max-width:768px){
+    .navbar-nav{
+        text-align: center;
+
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        display: inline-block;
+    }
+    
+.navbar-light .navbar-nav .nav-link::before {
+
+    bottom: -3px;
+}
+.navbar-light .navbar-nav .nav-link::after {
+
+    bottom: -3px;
+}
+.navbar-light .navbar-nav .nav-item {
+    
+    margin: 3px 0px;
+}
+.feature-content {
+    margin-bottom: 30px;
+}
+
+.feature-content h2 {
+
+    padding-top: 14px;
+    
+
+}
+
+}
+
+
+@media(min-width:0px) and (max-width:576px){
+    .image {
+        
+        display: none;
+    }
+    .hg{
+        text-align: center;
+    }
+    .testimonial p {
+        font-size: 16px;
+    }
+    .client-des p {
+        font-size: 14px;
+        
+        padding-bottom: 6px;
+        
+    }
+    .client-des h6{
+        font-size: 14px;
+    }
+    .client-img {
+        width: 115px;
+        height: 50px;
+    }
+    .client {
+      
+        align-items: center;
+    }
+    .like-what h1 {
+        font-size: 29px;
+    }
+    .like {
+        
+        text-align: center;
+    }
+    .like-what p {
+        font-size: 29px;
+    }
+    .contact-form {
+  
+        width: 65%;
+        top:75%
+       
+    }
+    .info{
+        margin-bottom: 30px;
+    }
+    
+  
+}
+@media(min-width:0px) and (max-width:375px) {
+    .contact-form form input[type="submit"] {
+        
+        font-size: 8px;
+        
+    }
+    .btn-download {
+    
+        padding: 8px 8px;
+        
+    }
+    .btn-feature {
+ 
+        padding: 8px 8px;
+    }
+    .header-content h1 {
+    
+        font-size: 38px;
+       
+    }
+    .header-content p {
+    
+        font-size: 14px;
+       
+    }
+    .client-img {
+     display: none;
+    }
+}
